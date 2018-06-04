@@ -1,0 +1,39 @@
+print "====================================================================="
+print "Assalamu'alaikum warohmatullahi wabarokatuh"
+print "====================================================================="
+print "Nama    : Ita Attamie"
+print "NIM     : G.21.16.049"
+print "====================================================================="
+
+def Penjumlahan():
+    hasil=500 + 200
+    return hasil
+print "Hasil Penjumlahan 500 + 200 = ", Penjumlahan()
+
+def Penjumlahan(*args):
+    hasil=500+200
+    return hasil
+print "Hasil Penjumlahan 500 + 200 = ", Penjumlahan()
+
+def Pengurangan():
+    hasil=700-190
+    return hasil
+print "Hasil Pengurangan 700 - 190 = ", Pengurangan()
+
+def Pengurangan(*args):
+    hasil=700-190
+    return hasil
+print "Hasil Pengurangan 700 - 190 = ", Pengurangan()
+
+def Tampil(func, func1):
+    print "Anto memiliki bebek",func(),"ekor di Mataram"
+    print "Bebek Anto pada tahun 2013 menjadi",func1(),"karena mati keracunan"
+
+def Utama():
+    Tampil(Penjumlahan,Pengurangan)
+
+
+Utama()
+
+print "Terima kasih"
+print "Wassalamu'alaikum warohmatullahi wabarokatuh"
