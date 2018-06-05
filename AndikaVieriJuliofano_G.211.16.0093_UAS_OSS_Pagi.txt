@@ -1,0 +1,59 @@
+(tanda *# merupakan tanda pengingat apa hal yang saya tambah aau perbaiki dari script asli)
+
+def Penjumlahan():
+	hasil=500+200
+	return hasil
+
+def Penjumlahan(*args): *#saya menambahkan tanda bintang(*) di depan 'args' sintaks *args mengizinkan kita untuk memasukkan beberapa argumen yang jumlahnya tidak ditentukan.
+	hasil=500+200
+	return hasil
+  
+def Pengurangan():
+	hasil=700-190
+	return hasil
+  
+def Pengurangan(*args): *#saya menambahkan tanda bintang(*) di depan 'args' sintaks *args mengizinkan kita untuk memasukkan beberapa argumen yang jumlahnya tidak ditentukan.
+	hasil=700-190
+	return hasil
+  
+def Tampil(func,func1):
+	print "Anto memiliki bebek ",func()," ekor di Mataram"  *# Baris ini diberi tanda koma (,) sebagai pemisah antar string
+	print "Bebek anto pada tahun 2013 menjadi ",func1()," karena mati keracunan"  *# Baris ini diberi tanda koma (,) sebagai pemisah antar string
+
+def Utama():
+	Tampil(Penjumlahan,Pengurangan)
+
+#pemanggilan fungsi Utama
+Utama()
+
+(saya menambahkan sintaks 'print' untuk memanggil atau menampilkan hasil dibeberapa script agar tidak percuma yang diberi tanda ** )
+
+def Penjumlahan():
+hasil= 500 + 200
+return hasil
+print Penjumlahan() **
+
+def Penjumlahan(*args):
+hasil= 500 + 200
+return hasil
+print Penjumlahan() **
+
+def Pengurangan():
+hasil= 700 - 190
+return hasil
+print Pengurangan() **
+
+def Pengurangan(*args):
+hasil= 700 - 190
+return hasil
+print Pengurangan() **
+
+def Tampil(func,func1):
+print "Anto memiliki bebek",func(),"ekor di Mataram,"
+print "Bebek anto pada tahun 2013 menjadi",func1(),"karena mati keracunan"
+
+def Utama():
+    Tampil(Penjumlahan,Pengurangan)
+
+#pemanggilan fungsi Utama
+Utama()
