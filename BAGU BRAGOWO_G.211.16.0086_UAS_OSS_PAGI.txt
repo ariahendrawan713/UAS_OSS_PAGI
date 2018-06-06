@@ -23,3 +23,5 @@ def Utama():
 
 #pemanggilan fungsi Utama
 Utama()
+#perubahan terjadi pada penuliasn "func()" yang harus diberi tanda , untuk memisahkan antara string dan funsi menjadi ",func()," begitupun pada "func1()"
+#pemberian tanda * pada awal args
