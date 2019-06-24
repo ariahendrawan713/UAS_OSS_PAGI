@@ -15,11 +15,11 @@ def Pengurangan(args):
 	return hasil
   
 def Tampil(func,func1):
-	print "Anto memiliki bebek "func()" ekor di Mataram"
-	print "Bebek anto pada tahun 2013 menjadi "func1()" karena mati keracunan"
+	print ("Anto memiliki bebek",func,"ekor di Mataram")
+	print ("Bebek anto pada tahun 2013 menjadi",func1,"karena mati keracunan")
 
 def Utama():
-	Tampil(Penjumlahan,Pengurangan)
+	Tampil(Penjumlahan(),Pengurangan())
 
 #pemanggilan fungsi Utama
 Utama()
